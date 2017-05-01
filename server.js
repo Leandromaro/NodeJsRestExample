@@ -2,6 +2,9 @@ var express = require('express');
 var app = express();
 var fs = require("fs");
 
+//In the above case require('events'); would return an Object containing EventEmitter
+//require returns exactly what you put in module.exports
+
 app.get('/listUsers', function (req, res) {
    fs.readFile( __dirname + "/" + "users.json", 'utf8', function (err, data) {
        console.log( data );
