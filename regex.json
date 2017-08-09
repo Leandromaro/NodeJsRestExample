@@ -1,5 +1,5 @@
-}
-    {
+[
+	{
         "field": "string",
         "expresion": "^[a-zA-Zs]*$"
     },
@@ -11,4 +11,4 @@
         "field": "int",
         "expresion": "^[0-9]+$"
     }
-}
+]
